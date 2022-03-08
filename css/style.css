@@ -69,4 +69,48 @@ header .icons a:hover {
     color: var(--black);
     border-radius: .3rem;
     cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Responsive/Responsividade ======= */
+@media (max-width: 991px){
+
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    #menu-bar {
+        display: block;
+    }
 }
