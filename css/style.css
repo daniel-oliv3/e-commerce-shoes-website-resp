@@ -26,6 +26,16 @@ section {
     padding: 2rem 9%;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    font-weight: bolder;
+    font-size: 1.7rem;
+    color: var(--black);
+}
+
 /* ======= Header Section/Seção de Cabeçalho ======= */
 header {
     position: fixed;
@@ -116,6 +126,22 @@ header .icons a:hover {
     z-index: -1;
 }
 
+.home .slide-container .slide .content span {
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+.home .slide-container .slide .content h3 {
+    font-size: 5rem;
+    color: var(--black);
+}
+
+.home .slide-container .slide .content p {
+    font-size: 1.7rem;
+    padding: .5rem 0;
+    color: #666;
+}
+
 
 
 
@@ -185,3 +211,7 @@ header .icons a:hover {
     }
 
 }
+
+
+
+/**/
