@@ -148,6 +148,14 @@ header .icons a:hover {
     top: 0;
     left: 0;
     z-index: -1;
+    animation: shoeText .5s linear .5s backwards;
+}
+
+@keyframes shoeText {
+    0% {
+        opacity: 0;
+        top: -10rem;
+    }
 }
 
 .home .slide-container .slide .content span {
@@ -184,13 +192,44 @@ header .icons a:hover {
     background-position: center;
 }
 
+.home .slide-container {
+    display: none;
+}
+.home .slide-container.active {
+    display: block;
+}
+
+.home #prev,
+.home #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 100;
+    height: 5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    border: .2rem solid var(--black);
+    cursor: pointer;
+    text-align: center;
+}
+
+.home #prev:hover,
+.home #next:hover {
+    color: #fff;
+    background: var(--orange);
+}
 
 
+.home #prev {
+    left: 3rem;
+}
 
-
-
-
-
+.home #next {
+    right: 3rem;
+}
 
 
 
