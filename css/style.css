@@ -22,6 +22,10 @@ html{
   scroll-behavior: smooth;
 }
 
+section {
+    padding: 2rem 9%;
+}
+
 /* ======= Header Section/Seção de Cabeçalho ======= */
 header {
     position: fixed;
@@ -73,9 +77,44 @@ header .icons a:hover {
 }
 
 
+/* ======= Home Section/Seção Inicial ======= */
+.home {
+    padding: 0;
+    position: relative;
+}
 
+.home .slide-container .slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 9%;
+    padding-top: 9rem;
+}
 
+.home .slide-container .slide .content {
+    flex: 1 1 40rem;
+}
 
+.home .slide-container .slide .image {
+    flex: 1 1 50rem;
+    padding-bottom: 15rem;
+    position: relative;
+    z-index: 0;
+}
+
+.home .slide-container .slide .image .shoe {
+    width: 100%;
+    transform: rotate(-35deg);
+}
+
+.home .slide-container .slide .image .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
 
 
