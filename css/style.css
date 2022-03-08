@@ -19,4 +19,35 @@ html{
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-padding-top:6rem;
- 
+  scroll-behavior: smooth;
+}
+
+/* ======= Header Section/Seção de Cabeçalho ======= */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+}
+
+header .navbar a:hover {
+    color: var(--orange);
+}
