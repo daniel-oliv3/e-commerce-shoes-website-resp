@@ -34,6 +34,14 @@ section {
     font-weight: bolder;
     font-size: 1.7rem;
     color: var(--black);
+    cursor: pointer;
+    background: #fff;
+    padding: .8rem 3rem;
+}
+
+.btn:hover {
+    background: var(--orange);
+    color: #fff;
 }
 
 /* ======= Header Section/Seção de Cabeçalho ======= */
@@ -103,8 +111,17 @@ header .icons a:hover {
     padding-top: 9rem;
 }
 
+
 .home .slide-container .slide .content {
     flex: 1 1 40rem;
+    animation: slideContent .5s linear 1s backwards;
+}
+
+@keyframes slideContent {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
 }
 
 .home .slide-container .slide .image {
@@ -117,6 +134,13 @@ header .icons a:hover {
 .home .slide-container .slide .image .shoe {
     width: 100%;
     transform: rotate(-35deg);
+    animation: shoe .3s linear;
+}
+
+@keyframes shoe {
+    0% {
+        transform: rotate(0deg) scale(.5);
+    }
 }
 
 .home .slide-container .slide .image .text {
@@ -140,6 +164,24 @@ header .icons a:hover {
     font-size: 1.7rem;
     padding: .5rem 0;
     color: #666;
+}
+
+.home .slide-container:nth-child(1) .slide {
+    background: url(../img/home-bg-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .slide-container:nth-child(2) .slide {
+    background: url(../img/home-bg-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .slide-container:nth-child(3) .slide {
+    background: url(../img/home-bg-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
