@@ -113,4 +113,21 @@ header .icons a:hover {
     #menu-bar {
         display: block;
     }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%; /*largura*/
+        background: #eee;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+    }
+
+    header .navbar a {
+        font-size: 2rem;
+        background: #fff;
+        border: .1rem solid var(--black);
+        border-radius: .5rem;
+        padding: 1.5rem;
+    }    
 }
