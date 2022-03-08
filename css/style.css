@@ -252,6 +252,10 @@ header .icons a:hover {
     header {
         padding: 2rem;
     }
+
+    section {
+        padding: 2rem;
+    }
 }
 
 @media (max-width: 768px){
@@ -282,13 +286,26 @@ header .icons a:hover {
         margin: 1.5rem;
         display: block;
         text-align: center;
-    }    
+    }
+    
+    .home .slide-container .slide .image .text {
+        width: 60%;
+    }
+    
+    .home #prev,
+    .home #next {
+        top: 85%;
+    }
 }
 
 @media (max-width: 400px){
 
     html {
         font-size: 50%;
+    }
+
+    .home .slide-container .slide .image {
+        padding-bottom: 6rem;
     }
 
 }
