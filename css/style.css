@@ -26,6 +26,19 @@ section {
     padding: 2rem 9%;
 }
 
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: var(--black);
+    padding: 1rem;
+}
+
+.heading span {
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -259,7 +272,11 @@ header .icons a:hover {
     padding-top: 1rem;
 }
 
-
+.service .box-container .box p {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
 
 
 
