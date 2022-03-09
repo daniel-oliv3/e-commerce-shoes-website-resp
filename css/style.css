@@ -280,7 +280,7 @@ header .icons a:hover {
 
 
 
-
+/* ======= Procuts Section/Seção de Produtos ======= */
 
 
 
@@ -361,6 +361,10 @@ header .icons a:hover {
 
     .home .slide-container .slide .image {
         padding-bottom: 6rem;
+    }
+
+    .heading {
+        font-size: 3rem;
     }
 
 }
