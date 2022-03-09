@@ -281,9 +281,21 @@ header .icons a:hover {
 
 
 /* ======= Procuts Section/Seção de Produtos ======= */
+.products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
-
-
+.products .box-container .box {
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #f9f9f9;
+    flex: 1 1 30rem;
+}
 
 
 
