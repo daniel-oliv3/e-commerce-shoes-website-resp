@@ -336,6 +336,46 @@ header .icons a:hover {
     margin-top: .5rem;
 }
 
+.products .box-container .box .icons a:hover {
+    background: var(--orange);
+    color: #fff;
+}    
+
+.products .box-container .box .content h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+
+.products .box-container .box .content .price span {
+    color: var(--orange);
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.products .box-container .box .content .stars {
+    padding-bottom: 1rem;
+}
+
+.products .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: var(--orange);
+}
+
+
+
+
+
+
+
+
+
 
 
 
