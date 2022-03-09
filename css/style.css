@@ -297,6 +297,44 @@ header .icons a:hover {
     flex: 1 1 30rem;
 }
 
+.products .box-container .box .content {
+    padding: 1.5rem;
+}
+
+.products .box-container .box img {
+    height: 10rem;
+    transform: rotate(-35deg);
+    filter: drop-shadow(0 .5rem 1rem rgba(0, 0, 0, .1));
+    margin: 8rem 2rem;
+}
+
+.products .box-container .box:hover img {
+    transform: rotate(-35deg) scale(1.2);
+}
+
+.products .box-container .box .icons {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: .5rem;
+    left: -10rem;
+}
+
+.products .box-container .box:hover .icons {
+    left: 1rem;
+}
+
+.products .box-container .box .icons a {
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    border: .1rem solid var(--black);
+    border-radius: .5rem;
+    background: #fff;
+    margin-top: .5rem;
+}
 
 
 
