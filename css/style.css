@@ -541,14 +541,50 @@ header .icons a:hover {
 
 
 /* ======= Footer Section/Seção de Rodapé ======= */
+.footer .box-container {
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
+.footer .box-container .box {
+    flex: 1 1 20rem;
+}
 
+.footer .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
 
+.footer .box-container .box a {
+    color: #666;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
 
+.footer .box-container .box a:hover {
+    color: var(--orange);
+}
 
+.footer .box-container .credit {
+    text-align: center;
+    width: 100%;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    color: #999;
+}
 
-
-
+.footer .box-container .credit span {
+    color: var(--orange);
+}
 
 
 /* ======= Responsive/Responsividade ======= */
