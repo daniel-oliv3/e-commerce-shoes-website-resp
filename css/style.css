@@ -455,19 +455,41 @@ header .icons a:hover {
 .review .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    border: .1rem solid rgba(0, 0, 0, .1);
-    border-radius: .5rem;
-    background: #f9f9f9;
+    gap: 1.5rem;  
 }
 
 .review .box-container .box {
     flex: 1 1 30rem;
     text-align: center;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
 }
 
+.review .box-container .box img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem 0;
+}
 
+.review .box-container .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
 
+.review .box-container .box p {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.review .box-container .box .stars i {
+    font-size: 2rem;
+    color: var(--orange);
+}
 
 
 
