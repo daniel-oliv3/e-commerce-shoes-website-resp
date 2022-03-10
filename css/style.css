@@ -521,13 +521,32 @@ header .icons a:hover {
 .newsletter .content form {
     margin: 1rem auto;
     max-width: 50rem;
+    display: flex;
 }
 
 .newsletter .content form .box {
     width: 100%;
     font-size: 1.7rem;
     text-transform: none;
+    color: #333;
+    padding: 1rem;
+    border: .2rem solid var(--black);
+    border-right: none;
+    margin-top: 1rem;
 }
+
+.newsletter .content form .btn {
+    border-radius: 0;
+}
+
+
+/* ======= Footer Section/Seção de Rodapé ======= */
+
+
+
+
+
+
 
 
 
