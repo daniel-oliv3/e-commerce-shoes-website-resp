@@ -492,8 +492,42 @@ header .icons a:hover {
 }
 
 
+/* ======= Newsletter Section/Seção de boletim informativo ======= */
+.newsletter {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 
+.newsletter .content {
+    text-align: center;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+}
 
+.newsletter .content h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.newsletter .content p {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 1rem auto;
+    max-width: 60rem;
+}
+
+.newsletter .content form {
+    margin: 1rem auto;
+    max-width: 50rem;
+}
+
+.newsletter .content form .box {
+    width: 100%;
+    font-size: 1.7rem;
+    text-transform: none;
+}
 
 
 
